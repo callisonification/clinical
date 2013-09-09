@@ -12,7 +12,7 @@
 	}
 	
 	//declare email variables
-	$to = 'info@clinical-security.com';
+	$to = 'callisonification@gmail.com';
 	$sub = $subject;
 	
 	//create HTML message
