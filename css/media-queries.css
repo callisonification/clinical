@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* 	CSS Document 
+	author : Christopher Allison
+	date :   6.30.13
+	version : 1.0
+	CSS - media queries
+*/
+/* Large desktop */
+@media (min-width: 1200px) { 
+
+	.modal {
+		width:680px;
+		margin-left:-340px;	
+	}
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) { 
+
+	.modal {
+		width:680px;
+		margin-left:-340px;	
+	}
+
+}
+
+/* Changes nav link color on IE for better viewing */
+@media \0screen\,screen\9 {
+	.navbar .nav li a {
+		color:#005A8C;
+		text-shadow: 0 1px 0 #888;	
+	}
+	.navbar .nav li a:hover {
+		color:#cc6600;
+		text-shadow: 0 1px 0 #444;	
+	}
+}

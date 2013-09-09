@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* 	CSS Document 
+	author : Christopher Allison
+	date :   6.25.13
+	version : 1.0
+*/
+body,
+.modal-header {
+	background-image:url(../img/grey.png);	
+}
+/*======== Header Styles ========*/
+header .row {
+	margin-left:0;	
+}
+h1 {
+	font-size:1em;	
+}
+.logo {
+	color:#005A8C;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:1.8em;
+	font-style:italic;
+	font-weight:bold;
+	line-height:1.5em;
+	text-decoration:none;
+	margin:20px 0 10px 0;	
+}
+.logo:hover {
+	color:#cc6600;
+	text-decoration:none;	
+}
+.icon-forward {
+	background-image:url(../img/glyphicons-halflings-orng.png);	
+}
+/*======== Navbar Styles ========*/
+.navbar-inner, .hr {
+	background: #d7d7d7;
+	background: -moz-linear-gradient(top,  #d7d7d7 0%, #14345c 3%, #153460 6%, #17346a 9%, #173661 12%, #183f6e 29%, #1f4576 44%, #205081 59%, #225183 65%, #265889 74%, #265b8e 85%, #2a5b8f 88%, #003d6e 97%, #c0c0c0 99%, #dcdcdc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d7d7d7), color-stop(3%,#14345c), color-stop(6%,#153460), color-stop(9%,#17346a), color-stop(12%,#173661), color-stop(29%,#183f6e), color-stop(44%,#1f4576), color-stop(59%,#205081), color-stop(65%,#225183), color-stop(74%,#265889), color-stop(85%,#265b8e), color-stop(88%,#2a5b8f), color-stop(97%,#003d6e), color-stop(99%,#c0c0c0), color-stop(100%,#dcdcdc));
+	background: -webkit-linear-gradient(top,  #d7d7d7 0%,#14345c 3%,#153460 6%,#17346a 9%,#173661 12%,#183f6e 29%,#1f4576 44%,#205081 59%,#225183 65%,#265889 74%,#265b8e 85%,#2a5b8f 88%,#003d6e 97%,#c0c0c0 99%,#dcdcdc 100%);
+	background: -o-linear-gradient(top,  #d7d7d7 0%,#14345c 3%,#153460 6%,#17346a 9%,#173661 12%,#183f6e 29%,#1f4576 44%,#205081 59%,#225183 65%,#265889 74%,#265b8e 85%,#2a5b8f 88%,#003d6e 97%,#c0c0c0 99%,#dcdcdc 100%);
+	background: -ms-linear-gradient(top,  #d7d7d7 0%,#14345c 3%,#153460 6%,#17346a 9%,#173661 12%,#183f6e 29%,#1f4576 44%,#205081 59%,#225183 65%,#265889 74%,#265b8e 85%,#2a5b8f 88%,#003d6e 97%,#c0c0c0 99%,#dcdcdc 100%);
+	background: linear-gradient(to bottom,  #d7d7d7 0%,#14345c 3%,#153460 6%,#17346a 9%,#173661 12%,#183f6e 29%,#1f4576 44%,#205081 59%,#225183 65%,#265889 74%,#265b8e 85%,#2a5b8f 88%,#003d6e 97%,#c0c0c0 99%,#dcdcdc 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7d7d7', endColorstr='#dcdcdc',GradientType=0 );
+}
+.navbar .nav li a {
+	color:#fff;
+	text-shadow: 0 1px 0 #888;	
+}
+.navbar .nav li a:hover {
+	color:#cc6600;
+	text-shadow: 0 1px 0 #444;	
+}
+.navbar .nav li a.active {
+	color:#cc6600;
+	font-style:italic;
+	text-shadow: 0 1px 0 #000;	
+}
+.navbar .nav li.dropdown .dropdown-toggle .caret {
+    border-bottom-color: #fff;
+    border-top-color: #fff;
+}
+.navbar .nav li.dropdown .dropdown-toggle:hover .caret {
+    border-bottom-color: #cc6600;
+    border-top-color: #cc6600;
+}
+.navbar .divider-vertical {
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #ddd;
+}
+.navbar .nav li.dropdown.open .dropdown-toggle, 
+.navbar .nav li.dropdown.active .dropdown-toggle, 
+.navbar .nav li.dropdown.open.active .dropdown-toggle {
+    background-color:transparent;
+    color:#fff;
+}
+/*======== Carousel Styles ========*/
+.carousel img {
+	width:100%;	
+}
+/*======== Signature Styles ========*/
+.hr {
+	height:2px;
+	width:100%;
+	margin:0 auto;
+}
+.sig {
+	color:#005A8C;
+	margin:8px 0;
+	font-size:15px;
+	font-style:italic;
+	font-weight:800;
+	text-align:center;
+}
+/*======== Content Styles ========*/
+.margfix {
+	margin-left:0;	
+}
+.readmore {
+	font-size:12px;
+	font-weight:bold;
+	color:#cc6600;
+}
+.readmore:hover {
+	color:#cc6600;
+	font-style:italic;
+}
+.icon-forward {
+	margin-left:5px;	
+}
+/*==== Content Section Styles ====*/
+section {
+	margin-bottom:20px;	
+}
+section h3,
+#firstHeading {
+	color:#005A8C;
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	font-style:italic;
+	line-height:1.5em;
+	margin:20px 0 10px 0;	
+}
+section h4 {
+	color:#00293F;
+	font-family:Verdana, Geneva, sans-serif;
+	line-height:1.5em;
+}
+section ul {
+	margin-left:15px;	
+}
+section ul li {
+	list-style:square;
+	color:#00293F;	
+}
+/*==== Footer Section Styles ====*/
+.signature.visible-phone {
+	clear:both;	
+}
+footer p {
+	font-size:10px;
+	font-weight:bold;
+	color:#005A8C;
+}
+footer span, 
+footer a, 
+footer a:hover {
+	color:#cc6600;	
+}
+footer a:hover {
+	font-style:italic;	
+}
+footer span {
+	font-size:13px;	
+}
+.footer_nav {
+	margin:0 auto;
+}
+.footer_nav li {
+	display:inline;
+}
+.footer_nav li a {
+	font-size:12px;	
+}
+.pipe {
+	color:#005A8C;
+}
+.footer_nav .active {
+	color:#005A8C;
+	font-size:12px;
+	font-weight:bold;
+}
+/*==== Profile Styles ====*/
+.note {
+	font-size:12px;
+	font-weight:500;
+	color:#005A8C;
+}
+.bio img {
+	margin-top:10px;
+}
+.bio img:hover {
+	-webkit-box-shadow:  0px 0px 3px 0px #999;
+	box-shadow:  0px 0px 3px 0px #999;		
+}
+/*==== Map Styles ====*/
+#map-canvas {
+	margin-top:30px;
+	height:400px;	
+}
+/*==== Form Styles ====*/
+.error {
+	font-size:12px;
+	color:#b94a48;
+	font-style:italic;	
+}
+.alert {
+	display:none;	
+}
+.alert p {
+	margin:0;	
+}
+
+
+/*==== Ensures page will render correctly in IE10 snap mode ====*/
+@-ms-viewport{
+    width: device-width;
+}
